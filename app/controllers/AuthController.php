@@ -42,6 +42,13 @@ class AuthController {
       require 'app/views/register.php';
     }
   }
+
+  public function logout() {
+    // Destroy session and redirect to login page
+    session_destroy();
+    header('Location: /login');
+  }
+
 }
 
 ?>
