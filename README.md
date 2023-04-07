@@ -4,6 +4,7 @@
 in this file, we have an index.php file which is the entry point for our application. It will load the necessary files and instantiate the controllers based on the request URL.
 
 - index.php
+- .htaccess
     - app/
         - models/
             - UserModel.php
